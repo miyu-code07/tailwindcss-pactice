@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@config "../tailwind.config.js"; /* ここでtailwind.config.jsを指定 */
+
+
+@theme {
+  --color-primary: #2979ff;
+  --color-secondary: #fb8c00;
+  --image-main-bg: url(./images/main-bg.jpg);
+}
